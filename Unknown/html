@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>My Website Builder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="tab">
+                <button class="tablinks" onclick="openProduct(event, 'Product')">Product</button>
+            </div>
+            <div id="product" class="tabcontent">
+                <h3>Product</h3>
+                <p>Website Design</p>
+            </div>
+        </header>
+        <main>
+            <section id="home">
+                <h2>Welcome to My Website Builder</h2>
+                <p>Create stunning websites with ease. Add affiliate links and build landing pages effortlessly.</p>
+            </section>
+            <section id="features">
+                <h2>Features</h2>
+                <p>Explore the powerful features we offer to make your website stand out.</p>
+            </section>
+            <section id="pricing">
+                <h2>Pricing</h2>
+                <p>Choose a plan that suits your needs.</p>
+            </section>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Learn more about our mission and team.</p>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any queries or support.</p>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 My Website Builder. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
